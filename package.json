@@ -1,6 +1,6 @@
 {
-  "name": "dcmjs-dimse",
-  "version": "0.1.20",
+  "name": "@radiobotics/dcmjs-dimse",
+  "version": "0.1.23",
   "description": "DICOM DIMSE implementation for Node.js using dcmjs",
   "main": "build/dcmjs-dimse.min.js",
   "module": "build/dcmjs-dimse.min.js",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PantelisGeorgiadis/dcmjs-dimse.git"
+    "url": "git+https://github.com/radiobotics/dcmjs-dimse.git"
   },
   "keywords": [
     "DICOM",
@@ -35,16 +35,16 @@
     "PACS",
     "dcmjs"
   ],
-  "author": "Pantelis Georgiadis",
+  "author": "Pantelis Georgiadis, Radiobotics <dev@radiobotics.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PantelisGeorgiadis/dcmjs-dimse/issues"
+    "url": "https://github.com/radiobotics/dcmjs-dimse/issues"
   },
-  "funding": "https://github.com/PantelisGeorgiadis/dcmjs-dimse?sponsor=1",
-  "homepage": "https://github.com/PantelisGeorgiadis/dcmjs-dimse",
+  "funding": "https://github.com/radiobotics/dcmjs-dimse?sponsor=1",
+  "homepage": "https://github.com/radiobotics/dcmjs-dimse",
   "dependencies": {
     "async-eventemitter": "^0.2.4",
-    "dcmjs": "^0.29.6",
+    "@radiobotics/dcmjs": "^0.29.12",
     "smart-buffer": "^4.2.0",
     "ts-mixer": "^6.0.3",
     "winston": "^3.9.0"

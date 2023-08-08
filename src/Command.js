@@ -4,7 +4,7 @@ const Dataset = require('./Dataset');
 const { Mixin } = require('ts-mixer');
 const { EOL } = require('os');
 const AsyncEventEmitter = require('async-eventemitter');
-const dcmjs = require('dcmjs');
+const dcmjs = require('@radiobotics/dcmjs');
 const { DicomMetaDictionary } = dcmjs.data;
 
 //#region Command
